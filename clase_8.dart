@@ -8,7 +8,7 @@ void main(List<String> args) {
   print(w);
 
   String? apell;
-  String apellformat = nombre ?? "buleje";
+  String apellformat = apell ?? "buleje";
   print(apellformat);
 }
 
